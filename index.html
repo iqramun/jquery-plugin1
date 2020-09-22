@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Plugin Customize......... </title>
+	<meta name="author" content="IQRAM">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="animation Background/src/polygonizr.min.js"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+
+        #site-landing {
+            position: relative;
+            height: 200%;
+            width: 100%;
+            background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+        }
+
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+    
+	
+	<link rel="stylesheet" href="nivo slider/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo slider/style.css" type="text/css" media="screen" />
+	
+	
+	
+	
+	
+	<link rel="stylesheet" href="owl carosel/cs/style.css">
+    <link rel="stylesheet" href="owl carosel/cs/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl carosel/cs/owl.theme.default.min.css">
+	
+	
+	
+</head>
+
+<body>
+
+
+<div id="site-landing">
+ 
+ <div class="all3">
+ 
+ <h1>THANKS TO ALL MEMBERS IN CODER'S CHINIMINI GROUP AND ADMIN<br><span>SPECIALLY AKASH DADU</span></h1>
+  
+   </div>
+ 
+   
+   
+   
+   </div>
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        let $sitelading = $('#site-landing');
+        $sitelading.polygonizr();
+
+        // Update size.
+        $(window).resize(function() {
+            $sitelading.polygonizr("stop");
+            $sitelading.polygonizr({
+                canvasHeight: $(this).height(),
+                canvasWidth: $(this).width()
+            });
+
+            $sitelading.polygonizr("refresh");
+        });
+
+    </script>
+  
+     <br><br>
+	<div class="all">	
+	
+	
+	
+	
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="owl carosel/image/1.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/2.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/3.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/4.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/5.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/6.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/7.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/8.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/9.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/10.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/11.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/12.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/13.jpg" alt="#"></div>
+        <div class="item"><img src="owl carosel/image/14.jpg" alt="#"></div>
+
+    </div>
+
+
+
+
+
+    <!-------Javascript link----->
+    <script type="text/javascript" src="owl carosel/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="owl carosel/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="owl carosel/js/app.js"></script>
+	
+	
+	
+	    
+	</div>
+	
+	<div class="all1">
+	
+	<h1 style="margin-top:15px;" align="center">Best 3D Wllpaper by IQRAM</h1>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+               
+                <img src="nivo slider/image/1.jpg" />
+                <img src="nivo slider/image/2.jpg" />
+                <img src="nivo slider/image/3.jpg" />
+                <img src="nivo slider/image/4.jpg" />
+            </div>
+            <h2>Thanks TO Coder's Chinimini</h2>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="nivo slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+
+
+
+</div>
+	
+	
+
+	
+	
+</body>
+
+</html>
